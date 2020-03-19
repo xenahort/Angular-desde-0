@@ -3,10 +3,12 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { AleatorioComponent } from './aleatorio/aleatorio.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    AleatorioComponent
   ],
   imports: [
     BrowserModule,
