@@ -7,6 +7,8 @@ import { Component, OnInit } from '@angular/core';
 })
 export class AleatorioComponent implements OnInit {
 
+  aleatorio: number = Math.floor (Math.random() * 100);
+
   constructor() { }
 
   ngOnInit(): void {
